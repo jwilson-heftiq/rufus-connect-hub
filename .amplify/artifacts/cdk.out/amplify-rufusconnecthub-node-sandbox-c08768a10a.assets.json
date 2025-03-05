@@ -1,7 +1,20 @@
 {
   "version": "39.0.0",
   "files": {
-    "9c037d2c1a8d03c3a64f787efebff30927fde5f52390efe337e8b7956e717e01": {
+    "22873e5f3c030c561b80bc8339999e3842835b9d3c481761f573726c421fcdad": {
+      "source": {
+        "path": "amplifyrufusconnecthubnodesandboxc08768a10aauth97905A73.nested.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "22873e5f3c030c561b80bc8339999e3842835b9d3c481761f573726c421fcdad.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "3967d1ebecfdfbe9fc849f059550279f750ac41e072cd658bdab3b1bfb9db4ae": {
       "source": {
         "path": "amplify-rufusconnecthub-node-sandbox-c08768a10a.template.json",
         "packaging": "file"
@@ -9,7 +22,7 @@
       "destinations": {
         "current_account-current_region": {
           "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
-          "objectKey": "9c037d2c1a8d03c3a64f787efebff30927fde5f52390efe337e8b7956e717e01.json",
+          "objectKey": "3967d1ebecfdfbe9fc849f059550279f750ac41e072cd658bdab3b1bfb9db4ae.json",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
         }
       }

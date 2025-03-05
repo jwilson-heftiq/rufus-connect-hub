@@ -22,7 +22,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/9c037d2c1a8d03c3a64f787efebff30927fde5f52390efe337e8b7956e717e01.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3967d1ebecfdfbe9fc849f059550279f750ac41e072cd658bdab3b1bfb9db4ae.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -63,6 +63,198 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "region"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyrufusconnecthubnodesandboxc08768a10aauthamplifyAuthUserPool965BE374Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyrufusconnecthubnodesandboxc08768a10aauthamplifyAuthUserPool965BE374Ref"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyrufusconnecthubnodesandboxc08768a10aauthamplifyAuthUserPoolAppClientDC738DE8Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyrufusconnecthubnodesandboxc08768a10aauthamplifyAuthUserPoolAppClientDC738DE8Ref"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth/amplifyrufusconnecthubnodesandboxc08768a10aauthamplifyAuthIdentityPool437A2D58Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyrufusconnecthubnodesandboxc08768a10aauthamplifyAuthIdentityPool437A2D58Ref"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-rufusconnecthub-node-sandbox-c08768a10a/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
           }
         ],
         "/amplify-rufusconnecthub-node-sandbox-c08768a10a/CDKMetadata/Default": [
