@@ -1,0 +1,19 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "9c037d2c1a8d03c3a64f787efebff30927fde5f52390efe337e8b7956e717e01": {
+      "source": {
+        "path": "amplify-rufusconnecthub-node-sandbox-c08768a10a.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "9c037d2c1a8d03c3a64f787efebff30927fde5f52390efe337e8b7956e717e01.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
